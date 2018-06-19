@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #F7468A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #D982B5}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #D982B5;
+}
+a:visited { color: white; }
+			* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+			.anc:visited{ color: black; overflow: scroll; }
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+	position: absolute;
+	top: 0px;
+	 left: 400px;
+}
+			
+.bom{ top:200px; height: 250px; }
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#cen{ margin-left: 160px; color: #EE34D2; }
+			#pro1{ position: absolute; left: 300px; }
+		</style>
+	</head>
+	<body>
+		<table cellspacing="5">
+	<tr>
+		<td>
+			<a href="home.html"><img src="logo.jpg" hspace="50" width="250px"></a></td>
+				<td><div class="dropdown">
+					<a href="dise.html"><button class="dropbtn">The Diseases</button></a>
+					</div></td>
+	<td>	<div class="dropdown">
+		<a href="news.html"><button class="dropbtn">&nbsp;News</button></a></div></td>
+		<td><div class="dropdown">
+  <button class="dropbtn">&nbsp;How To Help</button>
+</div>
+		</td>
+			<td><div class="dropdown">
+				<a href="Researchanddevelopment.html"><button class="dropbtn">&nbsp;Research and Development</button></a>
+				</div></td>
+				<td><div class="dropdown">
+					<a href="Ngo.html"><button class="dropbtn">&nbsp;NGO's</button></a>
+					</div></td>
+		<td><div class="dropdown">
+			<a href="doc.html"><button class="dropbtn">&nbsp;Doctors</button></a>
+			</div></td></tr></table>
+			<hr><br>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="wh.jpg" class="bom">
+	<div class="text"><h3><a href="http://www.who.int/reproductivehealth/intrapartum-care/en/" class="anc">Making childbirth a positive experience</a></h3>
+		<h4>New WHO guideline on intrapartum care</h4>
+15 February 2018 | Worldwide, about 140 million women give birth every year. Whilst much is known about the clinical management of labour and childbirth less attention is paid to what, beyond clinical interventions, needs to be done to make women feel safe, comfortable and positive about the experience. The growing knowledge on how to initiate, accelerate, terminate, regulate, or monitor the physiological process of labour and childbirth has led to an increasing medicalization of the process. It is now being understood that this approach may undermine a woman’s own capability in giving birth and could negatively impact her experience of what should normally be a positive, life-changing experience.</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="wh1.jpg" class="bom">
+  <div class="text"><h3><a href="http://www.who.int/reproductivehealth/topics/family_planning/fp-global-handbook/en/" class="anc">Updated and expanded guidance for family planning providers worldwide</a></h3>
+  13 February 2018: Family planning is considered a development “best buy” and a life-saving intervention for millions of women and girls. An estimated 214 million women of reproductive age in developing countries want to avoid pregnancy but are not using a modern contraceptive method. The reasons for this are many and varied. Millions more are using a contraceptive method that nevertheless results in an unintended pregnancy.
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="wh2.jpg">
+  <div class="text"><h3><a href="http://www.who.int/reproductivehealth/topics/fgm/zero-tolerance-fgm/en/" class="anc">Working to end myths and misconceptions about female genital mutilation</a></h3>
+  <h4>WHO marks the International Day of Zero Tolerance for female genital mutilation</h4>
+  6 February 2018: Today WHO joins individuals, organizations and UN partners worldwide in marking the International Day of Zero Tolerance for Female Genital Mutilation (FGM).
+
+  </div>
+</div>
+<div class="mySlides fade">
+  <img src="wh3.jpg" height="250px" width="300px">
+  <div class="text"><h3><a href="http://www.who.int/reproductivehealth/repair-simple-urinary-fistula/en/" class="anc">Short period of postoperative bladder catheterization effective for repair of simple urinary fistula</a></h3>
+  11 January 2018: WHO has today issued a new recommendation on the length of bladder catheterization following surgical repair of a simple obstetric urinary fistula. Currently the length of catheterization is not standard and ranges from 5 to 42 days. The new guidance recommends a 7–10 day period of bladder catheterization to allow complete healing. Longer periods of catheterization can be inconvenient for the woman, her family and care providers as it is associated with more discomfort and inconvenience. It also increases the risk of infection and erosion related to catheterization, requires more intensive nursing care and costs more per patient.
+  </div>
+</div>
+<div class="mySlides fade">
+	<img src="wh4.jpg" height="250px" width="300px">
+	<div class="text">
+		<h3><a href="http://www.who.int/reproductivehealth/stis-plos-collection/en/" class="anc">Prevention, Diagnosis, and Treatment of Sexually Transmitted Infections
+</a></h3>
+The numbers of people affected by STIs are staggering. More than 30 different bacteria, viruses, and parasites lead to over 1 million sexually transmitted infections each day. Annually, there are an estimated 131 million chlamydia infections, 78 million gonorrhea infections, 5.6 million syphilis infections and 143 million trichomoniasis infections. These infections can, at present, be treated with existing antibiotic regimens. Antimicrobial resistance, however, is a growing threat, particularly for gonorrhea and Mycoplasma genitalium The most prevalent viral STIs are genital herpes simplex virus infection (affecting an estimated 500 million people worldwide) and human papillomavirus (HPV) infection (affecting 290 million women and leading to some 500,000 cases of cervical cancer annually).
+	</div>
+</div>
+<div class="mySlides fade">
+	<img src="wh5.jpg" height="250px" width="300px">
+	<div class="text">
+		<h3><a href="http://www.who.int/reproductivehealth/better-outcomes-in-labour-difficulty/en/" class="anc">Engaging with communities is crucial for improving quality of care during childbirth</a></h3>
+		15 December 2017: High-quality care for women giving birth in health facilities is crucial for safeguarding their health and well-being. Health care that is based on good quality scientific evidence goes a long way in helping to ensure such high-quality care – but it does not go far enough. The authors of a special supplement highlight how from the perspectives of individuals, their families and communities, high-quality care is that which is delivered with respect, with skill, and in accordance with their needs and preferences.
+	</div>
+</div>
+<div class="mySlides fade">
+	<img src="wh6.jpg" height="250px" width="300px">
+	<div class="text">
+		<h3><a href="http://www.who.int/reproductivehealth/topics/maternal_perinatal/robson-classification-implementation/en/" class="anc">The Robson classification implementation manual</a></h3>
+		30 November 2017 | A caesarean section is a life-saving surgical procedure that can prevent maternal and perinatal mortality and morbidity. Over the last decades, however, the use of caesarean section as a mode of delivery has been increasing to unprecedented levels with parallel concern about its consequences. In order to understand what is driving this trend and propose and implement effective measures to ensure that it is not being used unnecessarily, a tool to monitor and compare caesarean section rates in a same setting over time and between different settings is needed.
+	</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+<hr><br>
+<h2 id="cen">Research Centers and Organizations that Support Women's Health</h2>
+	<ol id="pro1">
+		<li >Cancers<ul><li>Cancer Clinical Services Quality Assurance Project</li></ul></li>
+		<li>Continence
+		<ul>
+		<li>National Association for Continence</li>
+		<li>UCSF Women's Continence Center</li>
+		<li>InConti.net</li>
+		</ul>
+		</li>
+		<li>Contraception
+			<ul><li>Managing Contraception</li></ul>
+		</li>
+		<li>Health
+			<ul><li>CDC: Centers, Institute and Offices</li><li>Drug Center</li><li>World Health Organization</li><li>Illinois Department of Public Health: Women's Health</li></ul>
+		</li>
+		<li>Nursing and Midwifery
+		<ul><li>Global Network of WHO Collaborating Centres for Nursing and Midwifery Development</li></ul>
+		</li>
+		<li>Obstetrics and Gynecology
+		<ul><li>American College of Obstetricians and Gynecologists</li><li>Canadian Perinatal Health Report</li></ul></li>
+		<li>Reproductive Health
+			<ul>
+				<li>National Center for HIV, STD and TB Prevention:  Division of Sexually Transmitted Diseases</li>
+				<li>Gay and Lesbian Medical Association</li>
+			</ul>
+		</li>
+		<li>Maternity
+			<ul><li>Lamaze Institute for Normal Birth</li>
+			<li>Citizens for Midwifery</li>
+			<li>Coalition for Improving Maternity Services</li>
+			<li>Maternity Coalition</li>
+			<li>Childbirth Connection (formerly Maternity Center Association)</li>
+			</ul>
+		</li>
+	</ol>
+	</body>
+</html>

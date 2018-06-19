@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #F7468A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #D982B5}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #D982B5;
+}
+
+a:visited{ color: white; }
+.div1{ font-size: 100px; color: #F7468A; position: absolute; left: 500px; top: 300px; }
+.div2{ position: absolute; left: 750px; top: 390px; font-size: 30px; color: #676767; }
+.div3{ position: absolute; left: 750px; top: 420px; font-size: 30px; color: #676767; }
+.div4{ position: absolute; left: 750px; top: 450px; font-size: 30px; color: #676767; }
+.para{ position: absolute; left: 400px; top: 500px; font-size: 20px; }
+.see{ position: absolute; left: 400px; top: 600px; color: #F7468A; font-size: 20px; }
+.see1{ position: absolute; left: 560px; top: 650px; height: 50px; width: 180px; border: 1px solid #F7468A }
+.hov:hover{ color: #F7468A; }
+		</style>
+	</head>
+	<body>
+		<table cellspacing="5">
+	<tr>
+		<td>
+			<a href="home.html"><img src="logo.jpg" hspace="50" width="250px"></a></td>
+				<td><div class="dropdown">
+					<a href="dise.html"><button class="dropbtn">The Diseases</button></a>
+					</div></td>
+	<td>	<div class="dropdown">
+		<a href="news.html"><button class="dropbtn">&nbsp;News</button></a></div></td>
+		<td><div class="dropdown">
+			<a href="donate.html"> <button class="dropbtn">&nbsp;How To Help</button></a>
+</div>
+		</td>
+			<td><div class="dropdown">
+				<a href="Researchanddevelopment.html"><button class="dropbtn">&nbsp;Research and Development</button></a>
+				</div></td>
+				<td><div class="dropdown">
+					<a href="Ngo.html"><button class="dropbtn">&nbsp;NGO's</button></a>
+					</div></td>
+		<td><div class="dropdown">
+			<a href="doc.html"><button class="dropbtn">&nbsp;Doctors</button></a>
+			</div></td></tr></table>
+			<img src="Donate.jpg" height="290px" width="1300px">
+			<div>
+				<p class="div1">100%</p>
+				<p class="div2">of your </p>
+				<p class="div3">donations go</p>
+				<p class="div4">to projects.</p>
+				<p class="para">Give the gift of education,health care and, a brighter life to the girl child of India.</p>
+			</div>
+			<div class="see">
+				What do you want to donate:
+			</div>
+			<div>
+			<select class="see1">
+				<option>--Select Your Option--</option>
+				<option>Donate Money</option>
+				<option>Donate Property</option>
+				<option>Donate Clothes(new)</option>
+				<option>Medicines</option>
+				<option>Sponsor Education for girls</option>
+				<option>Donate Pads</option>
+			</select><br><br>
+		</div>
+	</body>
+</html>

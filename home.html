@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.fd{ background-color: #ACACE6; }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+			.dropbtn {
+    background-color: #F7468A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #D982B5}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #D982B5;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+	a:visited{ color: white; }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+	.id{ color: white; font-family: Georgia; font-size: 20px; }
+	.id:hover{ color: #FEBAAD; }
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px; }
+}
+	.hyg{ margin-left: 250px;margin-right: 250px; }
+	.fie{ display: inline-block; margin: auto; border-color: #F7468A;  }
+	.colo:hover{ color: #D982B5; }
+</style>
+</head>
+<body>
+<table cellspacing="5">
+	<tr><td><a href="home.html"><img src="logo.jpg" hspace="50" width="250px"></a></td>
+	<td><div class="dropdown">
+		<a href="dise.html"><button class="dropbtn">The Diseases</button></a>
+  </div></td>
+	<td>	<div class="dropdown">
+		<a href="news.html"><button class="dropbtn">&nbsp;News</button></a></div></td>
+		<td><div class="dropdown">
+			<a href="donate.html"><button class="dropbtn">&nbsp;How To Help</button></a></div>
+		</td>
+	<td><div class="dropdown">
+		<a href="Researchanddevelopment.html"><button class="dropbtn">&nbsp;Research and Development</button></a></div></td>
+  <td><div class="dropdown">
+	  <a href="Ngo.html"><button class="dropbtn">&nbsp;NGO's</button></a></div></td>
+		<td><div class="dropdown">
+			<a href="doc.html"><button class="dropbtn">&nbsp;Doctors</button></a>
+			</div></td></tr></table>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="ww1.jpg" style="width:100%">
+  <div class="text"><a href="womens_treated_as_second_class_citizens.html" class="id">Although on paper it seems gender equity has been achieved, in practice, this is not the case. Women throughout India are often treated as second-class citizens.</a></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="ww2.jpg" style="width:100%">
+  <div class="text"><a href="litercary_ruralwomen.html" class="id">The urban female literacy rate is 64 percent and rural women literacy rate is half of it, i.e., 31 percent.</a></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ww3.jpg" style="width:100%">
+  <div class="text"><a href="girlchild.html" class="id"> Girl children are considered an economic liability in child care costs, dowry costs, and marriage support.</a></div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<h1 align="center" style="color:#F7468A; font-family:Bell MT;">Women's Health in India</h1>
+<h2 align="center" style="color:#9E5E6F;font-size:20px ;font-family:Bell MT;">LEADING AWARENESS-RAISING PROGRAMS ON WOMEN'S<br> PERSONAL HEALTH</h2>
+<div align="center">
+	<img src="w1.jpg">
+	<img src="w2.jpg">
+	<img src="w3.jpg">
+	<img src="w4.jpg">
+	<div class="hyg">
+	Menstrual hygiene is one of the most important, yet neglected, health issues in the developing world. In India, approximately 70% of all reproductive diseases are caused by  poor menstrual hygiene.<br><br>
+	A Unicef study revealed that 10% of Indian women believe that menstruation is a disease. Limited access to information, as well as cultural taboos and social stigmas attached to menstruation have a negative impact on the lives and health of millions of girls and women.
+	<br><br>
+	It is a taboo subject, surrounded by silence and shame, that also restricts women’s access to normal activities and services. Many girls and women miss school and work every month because they do not have access to sanitary pads.<br><br>
+	</div>
+</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<fieldset class="fie" align="center"><legend align="center">Related Info</legend>
+	<table cellspacing="0"><tr>
+		<td align="center"><a href="http://swachhindia.ndtv.com/menstrual-hygiene-miss-world-2017-manushi-chillar-kick-starts-feminine-hygiene-awareness-program-17158/"><img src="maushi.jpg" width="300px" height="200px"></a></td>
+		<td align="center"><a href="https://economictimes.indiatimes.com/vidya-balan-roped-in-as-brand-ambassador-for-sanitation-campaign/articleshow/12985048.cms"><img src="vidya.jpg" width="300px" height="200px"></a></td></tr>
+			<tr>
+				<td align="center" class="colo">Miss World 2017 Manushi Chillar<br> Kick Starts A Feminine<br> Hygiene Awareness Program</td>
+				<td align="center" class="colo">&nbsp;&nbsp;&nbsp;&nbsp;Vidya Balanroped in as brand<br> ambassador for sanitation<br> campaign</td>
+			</tr>
+		</table>
+	</fieldset>
+</body>
+</html> 
